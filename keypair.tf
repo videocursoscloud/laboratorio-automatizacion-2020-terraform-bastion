@@ -1,5 +1,5 @@
 resource "aws_key_pair" "test-keypair" {
   key_name   = "test-keypair-bastion"
-  public_key = file("/home/mijack/.ssh/id_rsa.pub")
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+KDJh5POQWlr9wauZEJhVyGDddvLyY2vOcYjguJ1oCdKZSLdYUWbJjJ5wxxDJvNqlJthvr4ZlMGHeBks89Ut7qu35fOd/KoBFgSOCeGv/jOl2F3+JYjmbsVlNPAOVTeKn5VP4swO5KhKV2zU/vrPvcXBAkT/5ZljLBE3E7MBnvGHLuLqqru8WLLiXursyfaLSvtQZxYg7QpjhyavYQVgz10a0h0utcXmlxM8XOiodKe7WebhkXwskZW7Oosx3/1BKcW1FNssKtkC3C7hCjdyxlIG71d8/vpE1tx9KMhPoApTITkD5QIlvsoPhz07eMy48mzyihjHN9tTb9PATjFPT mijack@ubuntu"
 }
 
